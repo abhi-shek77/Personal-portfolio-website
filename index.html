@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3c28957690.js" crossorigin="anonymous"></script>
+
+  <title>Personal Portfolio</title>
+</head>
+<body>
+ <div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/logo.png" class="logo">
+      <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Portfolio</a></li>
+       <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Frontend Designer</p>
+      <h1>Hi, I'm <span>Virat</span><br>Kohli from India<h1>
+    </div>
+  </div>
+ </div>
+ <!----------- about --------->
+  <section class="about-section">
+  <div class="container2">
+    <div class="about-image">
+      <img src="images/user.png" alt="About Me">
+    </div>
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Virat Kohli, a passionate Web Developer 
+        with expertise in . I love creating visually 
+        appealing and functional websites that provide an excellent user experience.
+      </p>
+
+      <!-- Tab Navigation -->
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="skills">Skills</button>
+        <button class="tab-btn" data-tab="experience">Experience</button>
+        <button class="tab-btn" data-tab="education">Education</button>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="tab-content">
+        <div id="skills" class="tab-pane active">
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Django</li>
+            <li>React, Node.js</li>
+            <li>Version Control (Git)</li>
+          </ul>
+        </div>
+        <div id="experience" class="tab-pane">
+          <ul>
+            <li>Frontend Developer at ABC Corp (2023 - Present)</li>
+            <li>Internship at XYZ Tech (2022 - 2023)</li>
+            <li>Freelance Projects (2021 - 2022)</li>
+          </ul>
+        </div>
+        <div id="education" class="tab-pane">
+          <ul>
+            <li>Bachelor's Degree in Computer Science (2020 - 2023)</li>
+            <li>Certification in Full-Stack Development</li>
+            <li>High School Diploma (2018 - 2020)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+<!------------- Services-------- -->
+<div id="service">
+  <div class="container">
+    <div class="sub-title">My Services</div>
+    <div class="services-list">
+       <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Crafting visually stunning and fully responsive websites tailored to your brand's identity. I focus on delivering designs that are not only aesthetically pleasing but also optimized for performance and user engagement.</p>
+        <a href="#">Learn more</a>
+       </div> 
+       <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>Creating user-centered interfaces that balance functionality and aesthetics. My designs focus on enhancing usability, accessibility, and user satisfaction to deliver seamless and memorable experiences.</p>
+        <a href="#">Learn more</a>
+       </div>
+       <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>Designing intuitive and engaging mobile and desktop applications that prioritize functionality and user satisfaction. My designs are tailored to meet your target audience's needs and ensure a seamless digital experience.</p>
+        <a href="#">Learn more</a>
+       </div>
+    </div>
+  </div>
+</div>
+<!---------------- Portfolio------------ -->
+<div id="portfolio">
+  <div class="container">
+    <div class="sub-title">My Work</div>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>the app connects you to the talented people around the world. Download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>the app connects you to the talented people around the world. Download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>the app connects you to the talented people around the world. Download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="bttn">See More</a>
+  </div>
+</div>
+  
+<script src="script.js"></script>
+</body>
+</html>
