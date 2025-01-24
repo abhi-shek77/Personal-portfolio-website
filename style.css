@@ -28,7 +28,7 @@ nav{
   flex-wrap: wrap;
 }
 .logo{
-  width: 170px;
+  width: 100px;
 }
 nav ul li{
   display: inline-block;
@@ -49,6 +49,7 @@ nav ul li a::after{
   position: absolute;
   left: 0;
   bottom: -6px;
+  transition: width 0.3s;
 }
 nav ul li a:hover::after{
   width: 100%;
