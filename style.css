@@ -355,3 +355,8 @@ form .bttn2{
 .copyright i{
   color: red;
 }
+#msg{
+  color: #61b752;
+  margin-top: -10px;
+  display: block;
+}
