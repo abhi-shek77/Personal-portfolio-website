@@ -170,23 +170,6 @@
   </div>
 </form>
 
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbynlb3qa822S4i4Y9oHkDZwUHibxYFKQQVMEe3EcKGwhPyw79EunJ5pFVnkiTEzOz8P/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML = "Message sent successfully"
-        setTimeout(function() {
-          msg.innerHTML = ""
-        },5000)
-        form.reset()
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+<script src="script.js"></script>
 </body>
 </html>
